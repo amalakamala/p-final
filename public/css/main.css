@@ -1,0 +1,352 @@
+*{
+	margin:0;
+	padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+/*------ NAV ------*/
+.el-navegador {
+    color: #7F7F7F;
+    background-color: rgba(49, 46, 60, 0.3);
+    z-index: 1;
+    box-shadow:none;
+    position: relative;
+}
+.el-navegador .brand-logo{
+    background-image: url('../img/logo.png');
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    margin-left: 100px;    
+    margin-top: 8px;
+}
+.nav-wrapper ul{
+	padding-right: 100px;
+}
+.nav-wrapper ul a:hover {
+    color: #FFF;
+    background-color: rgba(49, 46, 60, 0.3);
+}
+.el-menu{
+    background-color: #FFF;
+    z-index: 1;
+    position: relative;
+}
+.el-navegador ul{
+    padding-right: 100px;
+}
+.el-menu .brand-logo{
+    background-image: url('../img/logo-c.png');
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    margin-left: 100px;    
+    margin-top: 8px;
+}
+.el-menu .nav-wrapper ul a:hover {
+    color: #FFF;
+    background-color: rgba(218, 192, 172, 0.7);
+}
+.el-menu .nav-wrapper ul a.active {
+    color: #FFF;
+    background-color: rgba(218, 192, 172, 0.7);
+}
+.el-menu a{
+    color: #DAC0AC;
+}
+.side-nav li>a {
+    color: #312E3C;
+}    
+.logo-slider{
+    position: relative;
+    top: 10px;
+    background-color: rgba(218, 192, 172, 0.5);
+    padding: 10px 90px;
+}
+.side-nav li>a>i{
+    color: rgba(218, 192, 172, 0.4);
+}
+/*------ CAROUSEL ------*/
+.el-carousel{
+    position: relative;  
+}
+.carousel.carousel-slider {
+    top: -80px;
+    left: 0;
+    z-index: -1;
+    height: 600px;
+}
+.c-item-1{
+	background-image: url('../img/slider-1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.c-item-2{
+    background-image: url('../img/slider-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.carousel.carousel-slider .carousel-item h2{
+	margin-top: 300px;
+	font-size: 40px;
+}
+.triangulo-equilatero-bottom-left{
+    position: absolute;
+    bottom: 79px;
+    width: 0;
+    height: 0;
+    border-right: 50vw solid transparent;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid #FFF;
+    z-index: -1;    
+}
+.triangulo-equilatero-bottom-right{
+    position: absolute;
+    right: 0;
+    bottom: 79px;
+    height: 0; 
+    width: 0; 
+    border-top: 100px solid transparent; 
+    border-left: 50vw solid transparent; 
+    border-bottom: 100px solid #FFF;   
+    z-index: -1; 
+}
+/*------ SOBRE MI ------*/
+.aboutme{
+    position: relative;
+    top:-50px;
+    padding: 70px 0 80px;
+}
+
+.img-me{		
+    border-radius: 50%;
+	width: 300px;
+	box-shadow: rgba(0,0,0,0.1);
+}
+.caja h3{
+    color: #DAC0AC;
+    font-weight: 400;
+    letter-spacing: 5px;    
+}
+.caja h6{
+    font-size: 18px;
+    color: #312E3C;
+    margin-bottom:20px;
+}
+.caja p{
+    text-align: justify;
+    font-size: 13.5px;
+}
+
+/*------ TOOLS ------*/ 
+.tools{
+    padding: 70px 0 120px;
+    position: relative;
+    background-color: #F7F7F7;
+}
+.tools h3{
+    color: #DAC0AC;
+    font-weight: 400;
+    letter-spacing: 3px; 
+}
+#carousel-tools.carousel.carousel-slider{
+    margin: 150px 0 0;
+    height: 340px;  
+}
+.triangulo-equilatero-bottom-left-dos{
+    position: absolute;
+    top: -200px;
+    width: 0;
+    height: 0;
+    border-right: 50vw solid transparent;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid #F7F7F7;    
+}
+.triangulo-equilatero-bottom-right-dos{
+    position: absolute;
+    top: -200px;    
+    right: 0;
+    height: 0; 
+    width: 0; 
+    border-top: 100px solid transparent; 
+    border-left: 50vw solid transparent; 
+    border-bottom: 100px solid #F7F7F7; 
+} 
+.icon-tools{
+    font-size: 40px;
+    color: #7F7F7F;
+}
+.icon-tools:hover{
+    color: #9A9A9A;
+}
+
+.f-iconos{
+    margin-bottom: 40px;
+}
+.material-icon{
+    background-image: url('../img/materialz.png');
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 43px; 
+    margin-left: 60px;
+    margin-bottom: 0;     
+}
+.material-icon:hover{
+    background-image: url('../img/materialz-2.png');
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 43px; 
+    margin-left: 60px;
+    margin-bottom: 0;     
+}
+.f-iconos h6{
+    color: #312E3C;    
+    font-size: 14px;
+}
+.f-iconos p{
+    font-size: 12px;
+    color: #7F7F7F;
+}
+.carousel-tools-item{
+    color: #7F7F7F;
+}
+.carousel-tools-item h6{
+    font-size: 12px; 
+}
+.carousel.carousel-slider .carousel-item p{
+    font-size: 11px; 
+}
+.carousel-tools-item .material-icon{
+   margin-left: 35px;  
+}
+/*------ PORTAFOLIO ------*/ 
+.portafolio{
+    padding: 60px 0 100px;    
+    position: relative;
+}
+.portafolio h3{
+    color: #DAC0AC;
+    font-weight: 400;
+    letter-spacing: 5px;    
+}
+.triangulo-equilatero-bottom-left-tres{
+    position: absolute;
+    top: -200px;
+    width: 0;
+    height: 0;
+    border-right: 50vw solid transparent;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid #FFF;   
+}
+.triangulo-equilatero-bottom-right-tres{
+    position: absolute;
+    right: 0;
+    top:-200px;
+    height: 0; 
+    width: 0; 
+    border-top: 100px solid transparent; 
+    border-left: 50vw solid transparent; 
+    border-bottom: 100px solid #FFF;   
+}
+.caja-portafolio{
+    position: relative;
+}
+/*HIDE*/
+.overlay-portafolio {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .8s ease;
+  background-color: rgba(255,255,255,0.95);
+}
+.container-portafolio:hover .overlay-portafolio {
+  opacity: 1;
+}
+/* F HIDE*/
+.card-title{
+    color: #312E3C;
+    margin-top: 100px;
+    font-weight: 200;
+}
+.icon-portafolio i{
+    color:#312E3C;
+    font-size: 25px;
+    margin-right:5px;
+    margin-bottom: 20px;
+}
+.icon-por-materialz{
+    position: relative;
+    bottom: 9px;
+}
+.botonera-por-materialz{
+    position: relative;
+    bottom: 9px;
+}
+.material-portafolio{
+    background-image: url('../img/material-p.png');
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    margin-right: 5px;
+}
+
+.botonera-portafolio{
+    margin-top: 10%;
+    margin-left:8%;
+}
+
+.botonera-portafolio .btn{
+    background-color:#F7F7F7;
+    color: #312E3C;
+}
+.botonera-portafolio .btn:hover{
+    background-color:#DAC0AC;
+    color: #FFF;
+}
+
+/*------ CONTACTO ------*/ 
+.contacto{
+    padding: 50px 0 70px;    
+    background-color: #312E3C;
+}
+.contacto h3{
+    color: #DAC0AC;
+    font-weight: 400;
+    letter-spacing: 5px;   
+    margin-bottom: 50px; 
+}
+.iconos-contacto a{
+    color: #DAC0AC;
+    font-size: 25px;
+    margin: 40px;
+}
+.iconos-contacto a:hover{
+    color: #F7F7F7;
+}
+.iconos-contacto a i{
+    background-color: #F7F7F7;
+    padding: 15px;
+    border-radius: 50%;
+}
+.iconos-contacto a i:hover{
+    background-color: #1A1821;
+}
+/*------ FOOTER ------*/ 
+footer{
+    background-color: #1A1821;
+    color: #DAC0AC;
+    padding: 10px;
+}
+.text-footer{
+    margin: 0;
+}

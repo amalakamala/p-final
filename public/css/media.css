@@ -1,0 +1,119 @@
+@media only screen and (max-width : 767px){
+	/*NAV*/
+	.el-navegador .brand-logo,
+	.el-menu .brand-logo{
+		width: 60px;
+    	height: 60px;
+    	margin-top: 4px;
+		margin-left: 130px; 
+	}
+	/*CAROUSEL*/	
+	.triangulo-equilatero-bottom-left{
+	    border-right: 50vw solid transparent;
+	    border-top: 150px solid transparent;
+	    border-bottom: 50px solid #FFF;    
+	}
+	.triangulo-equilatero-bottom-right{
+	    border-top: 150px solid transparent; 
+	    border-left: 50vw solid transparent; 
+	    border-bottom: 50px solid #FFF;   
+	}	
+	/*ABOUT ME*/	
+	.aboutme {
+	    padding: 40px 0 40px;
+	}    	
+	.caja h3{
+	    font-size: 2.80rem;   
+	}
+	/*TOOLS*/
+	.tools{
+    	padding: 40px 0 20px;	
+    	height: 590px;    		
+	}
+	.triangulo-equilatero-bottom-left-dos{
+	    border-right: 50vw solid transparent;
+	    border-top: 150px solid transparent;
+	    border-bottom: 50px solid #F7F7F7;    
+	}
+	.triangulo-equilatero-bottom-right-dos{
+	    border-top: 150px solid transparent; 
+	    border-left: 50vw solid transparent; 
+	    border-bottom: 50px solid #F7F7F7; 
+	} 
+	/*PORTAFOLIO */
+	.triangulo-equilatero-bottom-left-tres{
+	    border-right: 50vw solid transparent;
+	    border-top: 150px solid transparent;
+	    border-bottom: 50px solid #FFF;   
+	}
+	.triangulo-equilatero-bottom-right-tres{
+	    border-top: 150px solid transparent; 
+	    border-left: 50vw solid transparent; 
+	    border-bottom: 50px solid #FFF;   
+	}
+	/*PROJECTS*/
+	.portafolio {
+	    padding: 40px 0 50px;
+	}
+	.container-portafolio{
+		margin-bottom: 20px;
+	}
+	.botonera-portafolio {
+	    margin-left: 12%;
+	}
+	.btn-solo{
+		margin-left: 32%;
+	}	
+	/*CONTACT*/
+	.iconos-contacto a{
+	    margin: 5px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+	/*NAV*/
+	.el-navegador .brand-logo,
+	.el-menu .brand-logo{
+		width: 60px;
+    	height: 60px;
+	    margin-top: 7px;
+	    margin-left: 280px;
+	}
+	/*CAROUSEL*/	
+	.triangulo-equilatero-bottom-left{
+	    border-bottom: 80px solid #FFF;    
+	}
+	.triangulo-equilatero-bottom-right{
+	    border-bottom: 80px solid #FFF;   
+	}	
+	/*TOOLS*/
+	.triangulo-equilatero-bottom-left-dos{
+	    border-right: 50vw solid transparent;
+	    border-top: 120px solid transparent;
+	    border-bottom: 80px solid #F7F7F7;    
+	}
+	.triangulo-equilatero-bottom-right-dos{
+	    border-top: 120px solid transparent; 
+	    border-left: 50vw solid transparent; 
+	    border-bottom: 80px solid #F7F7F7; 
+	}	
+	/*PORTAFOLIO */
+	.triangulo-equilatero-bottom-left-tres{
+	    border-right: 50vw solid transparent;
+	    border-top: 120px solid transparent;
+	    border-bottom: 80px solid #FFF;
+	}
+	.triangulo-equilatero-bottom-right-tres{
+	    border-top: 120px solid transparent; 
+	    border-left: 50vw solid transparent; 
+	    border-bottom: 80px solid #FFF;  
+	}
+	/*PROJECTS*/
+	.portafolio {
+	    padding: 40px 0 30px;
+	}			
+	/*CONTACT*/
+	.iconos-contacto a{
+	    margin: 10px;
+	}	
+}
